@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NefroKids — Educación interactiva para diálisis peritoneal infantil</title>
-  <meta
-    name="description"
-    content="NefroKids es una plataforma educativa e interactiva que ayuda a niños y niñas en diálisis peritoneal a comprender y practicar su tratamiento mediante experiencias gamificadas."
-  />
+  <meta name="description"
+    content="NefroKids es una plataforma educativa e interactiva que ayuda a niños y niñas en diálisis peritoneal a comprender y practicar su tratamiento mediante experiencias gamificadas." />
   <meta name="theme-color" content="#A4F1CC" />
 
   <!-- ===== Fuentes (Google Fonts: Poppins) ===== -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
 
   <!-- ===== Íconos (Lucide) ===== -->
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -24,6 +21,7 @@
   <!-- ===== Estilos ===== -->
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <!-- ============================================================= -->
   <!-- NAVBAR FIJA                                                    -->
@@ -32,8 +30,7 @@
     <div class="container navbar__inner">
       <!-- Logo -->
       <a href="#hero" class="navbar__logo" aria-label="NefroKids - Inicio">
-        <img class="navbar__logo-img" src="" alt="NefroKids logo" />
-        <span class="navbar__brand">NefroKids</span>
+        <img class="navbar__logo-img" src="./public/assets/logo.png" alt="NefroKids logo" />
       </a>
 
       <!-- Botón menú móvil -->
@@ -60,7 +57,7 @@
     <section class="hero" id="hero">
       <div class="container hero__inner">
         <div class="hero__content reveal">
-          <img class="hero__logo" src="" alt="NefroKids logo" />
+          <img class="hero__logo" src="./public/assets/logo.png" alt="NefroKids logo" />
           <span class="badge">
             <i data-lucide="sparkles"></i> Plataforma educativa en desarrollo
           </span>
@@ -118,7 +115,8 @@
             </p>
           </div>
           <div class="split__media reveal">
-            <img src="" alt="Captura de la aplicación NefroKids" class="section-image" />
+            <img src="./public/assets/riku_welcome.PNG" alt="Captura de la aplicación NefroKids"
+              class="section-image" />
           </div>
         </div>
       </div>
@@ -307,7 +305,7 @@
             </div>
           </div>
           <div class="split__media reveal">
-            <img src="" alt="Captura de la aplicación" class="section-image" />
+            <img src="./public/assets/home_screen.PNG" alt="Captura de la aplicación" class="section-image" />
           </div>
         </div>
       </div>
@@ -457,7 +455,8 @@
             </div>
             <div class="field">
               <label for="mensaje">Mensaje</label>
-              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Contanos en qué podemos ayudarte" required></textarea>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Contanos en qué podemos ayudarte"
+                required></textarea>
             </div>
             <button type="submit" class="btn btn--primary btn--full">
               Enviar mensaje <i data-lucide="send"></i>
@@ -468,11 +467,28 @@
           <aside class="contact__info reveal">
             <h3>Otras formas de contacto</h3>
             <a href="mailto:contacto@nefrokids.com" class="contact__link">
-              <i data-lucide="mail"></i> contacto@nefrokids.com
+              <i data-lucide="mail"></i> nefrokidsarg@gmail.com
             </a>
-            <a href="#" class="contact__link"><i data-lucide="instagram"></i> Instagram</a>
-            <a href="#" class="contact__link"><i data-lucide="linkedin"></i> LinkedIn</a>
-            <a href="#" class="contact__link"><i data-lucide="github"></i> GitHub</a>
+            <a href="https://www.instagram.com/nefrokidsarg/" class="contact__link"><svg xmlns="http://w3.org" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+              </svg> Instagram</a>
+            <a href="https://www.linkedin.com/company/nefrokids-argentina/" class="contact__link"><svg xmlns="http://w3.org" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect width="4" height="12" x="2" y="9"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg> LinkedIn</a>
+            <a href="https://github.com/sackflorencia/NefroKids-app" class="contact__link"><svg xmlns="http://w3.org" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide-github">
+                <path
+                  d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                </path>
+                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+              </svg> GitHub</a>
           </aside>
         </div>
       </div>
@@ -485,18 +501,36 @@
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
-        <span class="logo-placeholder">[LOGO]</span>
-        <strong>NefroKids</strong>
+        <img class="hero__logo" src="./public/assets/logo.png" alt="NefroKids logo" />
       </div>
       <p class="footer__tagline">
         Educación interactiva para pacientes pediátricos en diálisis peritoneal.
         <span class="footer__status">Actualmente en desarrollo.</span>
       </p>
       <div class="footer__social">
-        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
-        <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
-        <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
-        <a href="mailto:contacto@nefrokids.com" aria-label="Email"><i data-lucide="mail"></i></a>
+        <a href="https://www.instagram.com/nefrokidsarg/" aria-label="Instagram"><svg xmlns="http://w3.org" width="24"
+            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+          </svg></a>
+        <a href="https://www.linkedin.com/company/nefrokids-argentina/" aria-label="LinkedIn"><svg xmlns="http://w3.org"
+            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect width="4" height="12" x="2" y="9"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg></a>
+        <a href="https://github.com/sackflorencia/NefroKids-app" aria-label="GitHub"><svg xmlns="http://w3.org"
+            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="lucide-github">
+            <path
+              d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+            </path>
+            <path d="M9 18c-4.51 2-5-2-7-2"></path>
+          </svg></a>
+        <a href="mailto:nefrokidsarg@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
       </div>
     </div>
     <div class="footer__bottom">
@@ -506,4 +540,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
