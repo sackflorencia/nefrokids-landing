@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NefroKids — Educación interactiva para diálisis peritoneal infantil</title>
+  <meta
+    name="description"
+    content="NefroKids es una plataforma educativa e interactiva que ayuda a niños y niñas en diálisis peritoneal a comprender y practicar su tratamiento mediante experiencias gamificadas."
+  />
+  <meta name="theme-color" content="#A4F1CC" />
+
+  <!-- ===== Fuentes (Google Fonts: Poppins) ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- ===== Íconos (Lucide) ===== -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- ===== Estilos ===== -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============================================================= -->
+  <!-- NAVBAR FIJA                                                    -->
+  <!-- ============================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <!-- Logo -->
+      <a href="#hero" class="navbar__logo" aria-label="NefroKids - Inicio">
+        <span class="logo-placeholder">[LOGO]</span>
+        <span class="navbar__brand">NefroKids</span>
+      </a>
+
+      <!-- Botón menú móvil -->
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+
+      <!-- Navegación -->
+      <nav class="navbar__nav" id="navMenu">
+        <a href="#desafio">El desafío</a>
+        <a href="#que-es">¿Qué es?</a>
+        <a href="#como-funciona">¿Cómo funciona?</a>
+        <a href="#publico">Público</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#contacto" class="navbar__cta">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================================= -->
+    <!-- 1. HERO                                                        -->
+    <!-- ============================================================= -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <span class="hero__logo logo-placeholder">[LOGO]</span>
+          <span class="badge">
+            <i data-lucide="sparkles"></i> Plataforma educativa en desarrollo
+          </span>
+          <h1 class="hero__title text-balance">
+            Aprender el tratamiento también puede ser un juego.
+          </h1>
+          <p class="hero__subtitle text-pretty">
+            NefroKids es una plataforma educativa e interactiva que busca ayudar a niños y niñas
+            en diálisis peritoneal a comprender, practicar y reforzar los procedimientos de su
+            tratamiento mediante experiencias gamificadas, con el acompañamiento de profesionales
+            de la salud.
+          </p>
+          <div class="hero__actions">
+            <a href="#que-es" class="btn btn--primary">
+              Conocer el proyecto <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="#contacto" class="btn btn--ghost">Contactanos</a>
+          </div>
+        </div>
+
+        <div class="hero__media reveal">
+          <div class="media-placeholder media-placeholder--video">
+            <i data-lucide="play-circle"></i>
+            <span>[VIDEO DEL PROYECTO]</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 2. EL DESAFÍO                                                  -->
+    <!-- ============================================================= -->
+    <section class="section section--tint" id="desafio">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">El desafío</span>
+          <h2 class="section__title text-balance">
+            Aprender un tratamiento complejo no debería ser intimidante.
+          </h2>
+        </div>
+        <div class="split">
+          <div class="split__text reveal">
+            <p>
+              Cada día, miles de niños que realizan diálisis peritoneal deben aprender
+              procedimientos complejos que requieren precisión, constancia y responsabilidad.
+            </p>
+            <p>
+              La educación suele apoyarse en explicaciones verbales, folletos o demostraciones
+              presenciales, recursos que muchas veces resultan difíciles de mantener en el tiempo,
+              especialmente para pacientes pediátricos.
+            </p>
+            <p class="highlight">
+              NefroKids nace con un objetivo claro: transformar el aprendizaje del tratamiento en
+              una experiencia más accesible, comprensible y motivadora.
+            </p>
+          </div>
+          <div class="split__media reveal">
+            <div class="media-placeholder">
+              <i data-lucide="image"></i>
+              <span>[CAPTURA DE LA APLICACIÓN]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 3. ¿QUÉ ES NEFROKIDS?                                          -->
+    <!-- ============================================================= -->
+    <section class="section" id="que-es">
+      <div class="container">
+        <div class="split split--reverse">
+          <div class="split__media reveal">
+            <div class="media-placeholder">
+              <i data-lucide="gamepad-2"></i>
+              <span>[CAPTURA DEL NIVEL 1]</span>
+            </div>
+          </div>
+          <div class="split__text reveal">
+            <span class="eyebrow">¿Qué es NefroKids?</span>
+            <h2 class="section__title text-balance">
+              Videojuegos y simulaciones al servicio del aprendizaje médico.
+            </h2>
+            <p>
+              NefroKids es una aplicación educativa que combina videojuegos, simulaciones y
+              actividades interactivas para enseñar conceptos fundamentales sobre la diálisis
+              peritoneal infantil.
+            </p>
+            <p>
+              La plataforma está diseñada para complementar la educación brindada por los equipos
+              médicos, nunca para reemplazarla.
+            </p>
+            <ul class="check-list">
+              <li><i data-lucide="check-circle-2"></i> Fortalece el aprendizaje mediante la práctica</li>
+              <li><i data-lucide="check-circle-2"></i> Refuerza conceptos a través del juego</li>
+              <li><i data-lucide="check-circle-2"></i> Favorece la repetición y la memoria</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 4. ¿CÓMO FUNCIONA?                                             -->
+    <!-- ============================================================= -->
+    <section class="section section--tint" id="como-funciona">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">¿Cómo funciona?</span>
+          <h2 class="section__title text-balance">
+            Niveles progresivos que acompañan el proceso de aprendizaje.
+          </h2>
+          <p class="section__lead text-pretty">
+            El contenido se organiza en niveles que aumentan gradualmente en complejidad para
+            acompañar la evolución del paciente.
+          </p>
+        </div>
+
+        <div class="cards cards--4">
+          <article class="card reveal">
+            <div class="card__icon"><i data-lucide="hand-helping"></i></div>
+            <h3>Preparación del tratamiento</h3>
+            <p>
+              Aprender la importancia del lavado de manos, la higiene y la preparación del entorno
+              antes de comenzar.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon"><i data-lucide="mouse-pointer-click"></i></div>
+            <h3>Procedimientos interactivos</h3>
+            <p>
+              Realizar paso a paso las acciones necesarias para una sesión de diálisis mediante
+              simulaciones guiadas.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon"><i data-lucide="puzzle"></i></div>
+            <h3>Juegos educativos</h3>
+            <p>
+              Memotests, desafíos y actividades que ayudan a reforzar conceptos importantes de
+              forma entretenida.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon"><i data-lucide="trending-up"></i></div>
+            <h3>Aprendizaje progresivo</h3>
+            <p>
+              Cada nivel incorpora nuevos conocimientos y aumenta gradualmente la complejidad para
+              acompañar la evolución del paciente.
+            </p>
+          </article>
+        </div>
+
+        <div class="captures reveal">
+          <div class="media-placeholder media-placeholder--sm">
+            <i data-lucide="image"></i><span>[CAPTURA DEL NIVEL 1]</span>
+          </div>
+          <div class="media-placeholder media-placeholder--sm">
+            <i data-lucide="image"></i><span>[CAPTURA DEL MEMOTEST]</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 5. PENSADO JUNTO A PROFESIONALES                               -->
+    <!-- ============================================================= -->
+    <section class="section section--accent" id="profesionales">
+      <div class="container">
+        <div class="callout reveal">
+          <div class="callout__icon"><i data-lucide="stethoscope"></i></div>
+          <div class="callout__text">
+            <span class="eyebrow eyebrow--light">Pensado junto a profesionales</span>
+            <h2 class="section__title text-balance">
+              Rigor científico, lenguaje pensado para la infancia.
+            </h2>
+            <p>
+              El contenido educativo se desarrolla en conjunto con médicos especialistas y
+              profesionales de la salud vinculados a la nefrología pediátrica, buscando mantener el
+              rigor científico mientras se adapta el lenguaje y la experiencia al público infantil.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 6. ¿A QUIÉN ESTÁ DIRIGIDO?                                     -->
+    <!-- ============================================================= -->
+    <section class="section" id="publico">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">¿A quién está dirigido?</span>
+          <h2 class="section__title text-balance">Una herramienta para todo el entorno del paciente.</h2>
+        </div>
+
+        <div class="cards cards--3">
+          <article class="card card--feature reveal">
+            <div class="card__icon"><i data-lucide="smile"></i></div>
+            <h3>Pacientes pediátricos</h3>
+            <p>Para aprender y practicar el tratamiento de manera dinámica.</p>
+          </article>
+
+          <article class="card card--feature reveal">
+            <div class="card__icon"><i data-lucide="users"></i></div>
+            <h3>Familias</h3>
+            <p>Como herramienta de apoyo durante el proceso de adaptación al tratamiento.</p>
+          </article>
+
+          <article class="card card--feature reveal">
+            <div class="card__icon"><i data-lucide="building-2"></i></div>
+            <h3>Hospitales y profesionales</h3>
+            <p>Como recurso complementario para la educación del paciente.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 7. TECNOLOGÍA AL SERVICIO DE LA SALUD                          -->
+    <!-- ============================================================= -->
+    <section class="section section--tint" id="tecnologia">
+      <div class="container">
+        <div class="split">
+          <div class="split__text reveal">
+            <span class="eyebrow">Tecnología al servicio de la salud</span>
+            <h2 class="section__title text-balance">
+              Desarrollo de videojuegos, diseño centrado en el usuario y educación médica.
+            </h2>
+            <p>
+              NefroKids combina desarrollo de videojuegos, diseño centrado en el usuario y
+              educación médica para crear una experiencia atractiva y fácil de utilizar.
+            </p>
+            <p>
+              La plataforma está siendo desarrollada utilizando tecnologías modernas que permiten
+              construir experiencias interactivas y escalables.
+            </p>
+            <div class="stats">
+              <div class="stat">
+                <span class="stat__num">100%</span>
+                <span class="stat__label">Enfocado en el paciente</span>
+              </div>
+              <div class="stat">
+                <span class="stat__num">+3</span>
+                <span class="stat__label">Módulos educativos</span>
+              </div>
+              <div class="stat">
+                <span class="stat__num">∞</span>
+                <span class="stat__label">Repetición sin límites</span>
+              </div>
+            </div>
+          </div>
+          <div class="split__media reveal">
+            <div class="media-placeholder">
+              <i data-lucide="cpu"></i>
+              <span>[CAPTURA DE LA APLICACIÓN]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 8. ESTADO DEL PROYECTO (TIMELINE)                              -->
+    <!-- ============================================================= -->
+    <section class="section" id="estado">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Estado del proyecto</span>
+          <h2 class="section__title text-balance">Actualmente en desarrollo.</h2>
+          <p class="section__lead text-pretty">
+            Estamos construyendo los primeros módulos educativos y validando el contenido junto a
+            profesionales de la salud para asegurar una experiencia útil, rigurosa y de calidad.
+          </p>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <span class="timeline__dot"><i data-lucide="check"></i></span>
+            <div class="timeline__content">
+              <h3>Investigación y diseño</h3>
+              <p>Definición de objetivos educativos junto a profesionales de la nefrología pediátrica.</p>
+            </div>
+          </li>
+          <li class="timeline__item timeline__item--active reveal">
+            <span class="timeline__dot"><i data-lucide="loader"></i></span>
+            <div class="timeline__content">
+              <h3>Construcción de los primeros módulos</h3>
+              <p>Desarrollo de niveles, simulaciones y juegos educativos iniciales.</p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__dot"><i data-lucide="flask-conical"></i></span>
+            <div class="timeline__content">
+              <h3>Validación con profesionales</h3>
+              <p>Revisión del contenido para garantizar rigor y calidad médica.</p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__dot"><i data-lucide="rocket"></i></span>
+            <div class="timeline__content">
+              <h3>Lanzamiento y colaboración</h3>
+              <p>Abiertos a colaborar con hospitales, instituciones, profesionales e investigadores.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 9. NUESTRO EQUIPO                                              -->
+    <!-- ============================================================= -->
+    <section class="section section--tint" id="equipo">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Nuestro equipo</span>
+          <h2 class="section__title text-balance">Un equipo interdisciplinario con un objetivo común.</h2>
+          <p class="section__lead text-pretty">
+            Somos un equipo interdisciplinario conformado por estudiantes de informática y
+            colaboradores del área de la salud que compartimos el objetivo de acercar herramientas
+            tecnológicas innovadoras a la nefrología pediátrica. Creemos que aprender un tratamiento
+            no debería ser una experiencia intimidante, sino una oportunidad para ganar confianza,
+            autonomía y seguridad.
+          </p>
+        </div>
+
+        <div class="team">
+          <article class="team__member reveal">
+            <div class="team__photo media-placeholder"><i data-lucide="user"></i><span>[FOTO]</span></div>
+            <h3>Nombre Apellido</h3>
+            <p>Rol del integrante</p>
+          </article>
+          <article class="team__member reveal">
+            <div class="team__photo media-placeholder"><i data-lucide="user"></i><span>[FOTO]</span></div>
+            <h3>Nombre Apellido</h3>
+            <p>Rol del integrante</p>
+          </article>
+          <article class="team__member reveal">
+            <div class="team__photo media-placeholder"><i data-lucide="user"></i><span>[FOTO]</span></div>
+            <h3>Nombre Apellido</h3>
+            <p>Rol del integrante</p>
+          </article>
+          <article class="team__member reveal">
+            <div class="team__photo media-placeholder"><i data-lucide="user"></i><span>[FOTO]</span></div>
+            <h3>Nombre Apellido</h3>
+            <p>Rol del integrante</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 10. PRÓXIMAMENTE                                               -->
+    <!-- ============================================================= -->
+    <section class="section" id="proximamente">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Próximamente</span>
+          <h2 class="section__title text-balance">Lo que viene para NefroKids.</h2>
+        </div>
+
+        <div class="cards cards--grid">
+          <article class="mini-card reveal">
+            <i data-lucide="layers"></i><span>Más niveles educativos</span>
+          </article>
+          <article class="mini-card reveal">
+            <i data-lucide="dices"></i><span>Nuevos minijuegos</span>
+          </article>
+          <article class="mini-card reveal">
+            <i data-lucide="line-chart"></i><span>Seguimiento del progreso</span>
+          </article>
+          <article class="mini-card reveal">
+            <i data-lucide="book-open"></i><span>Contenido ampliado</span>
+          </article>
+          <article class="mini-card reveal">
+            <i data-lucide="briefcase-medical"></i><span>Más recursos para profesionales</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- 11. CONTACTO                                                   -->
+    <!-- ============================================================= -->
+    <section class="section section--tint" id="contacto">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Contacto</span>
+          <h2 class="section__title text-balance">
+            ¿Te interesa conocer el proyecto o colaborar con NefroKids?
+          </h2>
+          <p class="section__lead text-pretty">Nos encantaría conversar.</p>
+        </div>
+
+        <div class="contact">
+          <form class="contact__form reveal" id="contactForm" novalidate>
+            <div class="field">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required />
+            </div>
+            <div class="field">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Contanos en qué podemos ayudarte" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">
+              Enviar mensaje <i data-lucide="send"></i>
+            </button>
+            <p class="form-feedback" id="formFeedback" role="status"></p>
+          </form>
+
+          <aside class="contact__info reveal">
+            <h3>Otras formas de contacto</h3>
+            <a href="mailto:contacto@nefrokids.com" class="contact__link">
+              <i data-lucide="mail"></i> contacto@nefrokids.com
+            </a>
+            <a href="#" class="contact__link"><i data-lucide="instagram"></i> Instagram</a>
+            <a href="#" class="contact__link"><i data-lucide="linkedin"></i> LinkedIn</a>
+            <a href="#" class="contact__link"><i data-lucide="github"></i> GitHub</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================= -->
+  <!-- 12. FOOTER                                                     -->
+  <!-- ============================================================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo-placeholder">[LOGO]</span>
+        <strong>NefroKids</strong>
+      </div>
+      <p class="footer__tagline">
+        Educación interactiva para pacientes pediátricos en diálisis peritoneal.
+        <span class="footer__status">Actualmente en desarrollo.</span>
+      </p>
+      <div class="footer__social">
+        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+        <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+        <a href="mailto:contacto@nefrokids.com" aria-label="Email"><i data-lucide="mail"></i></a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; <span id="year"></span> NefroKids. Todos los derechos reservados.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
